@@ -1,0 +1,114 @@
+.Logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+
+}
+
+#logo {
+  width: 140px;
+}
+
+.slogan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  padding-top: 25px;
+}
+
+.signIn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.centraalBlok{
+  display: block;
+text-align: center;
+  flex-direction: column;
+  background-color: lightgrey;
+  margin-top: 14px;
+  width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+
+}
+
+#anonym{
+  width: 80px;
+  padding-top: 20px;
+}
+
+#email{
+  font-size: 15px;
+  margin-top:  15px;
+  width: 200px;
+}
+
+#pasw{
+  font-size: 15px;
+  margin-top: 4px;
+  width: 200px;
+}
+
+#signin{
+  margin-top: 4px;
+  width: 200px;
+  background-color: #4285f4;
+  color: white;
+}
+
+.onderButton{
+  display: flex;
+  justify-content:  space-between;
+  padding-top: 10px;
+}
+
+#checkbox {
+  position: relative;
+  left: 35px;
+
+
+}
+
+#stay{
+
+
+
+
+}
+
+.create{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer{
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.ico{
+  width: 20px;
+  padding-left: 5px;
+}
