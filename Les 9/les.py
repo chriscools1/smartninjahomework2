@@ -98,24 +98,22 @@ while True:
 
 print ("alle taken: %s") % todo_lijst
 
-todo_file = open("todo.xlsx", "w+") # file variabele aanmaken en file openen of aanmaken indien niet bestaand
+with open("todo.txt", "w+") as todo_file: # file variabele aanmaken en file openen of aanmaken indien niet bestaand
 
 
-print ("voltooide taken: ")
-todo_file.write("Voltooide taken in overzicht:\n") # schrijven in de aangemaakte tekstfile
-for x in todo_lijst:
-    if todo_lijst[x] is True:
-        print ("- ") + x
-        todo_file.write("- "+ x + "\n") # taak toevoegen in de tekstfile
+    print ("voltooide taken: ")
+    todo_file.write("Voltooide taken in overzicht:\n") # schrijven in de aangemaakte tekstfile
+    for x in todo_lijst:
+        if todo_lijst[x] is True:
+            print ("- ") + x
+            todo_file.write("- "+ x + "\n") # taak toevoegen in de tekstfile
 
-print ("openstaande taken: ")
-todo_file.write("Onvoltooide taken in overzicht:\n")
-for x in todo_lijst:
-    if todo_lijst[x] is False:
-        print ("- ") + x
-        todo_file.write("- "+x+"\n")
-
-todo_file.close()
+    print ("openstaande taken: ")
+    todo_file.write("Onvoltooide taken in overzicht:\n")
+    for x in todo_lijst:
+        if todo_lijst[x] is False:
+            print ("- ") + x
+            todo_file.write("- "+x+"\n")
 
 
 

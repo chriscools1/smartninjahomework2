@@ -35,6 +35,6 @@ print ("Uw taak is: ") + taak
 todo_list.append(taak) # zo voegen we een variabele toe aan een lijst
 
 
-todo_file = open("todo.txt", "w+") # file variabele aanmaken en file openen of aanmaken indien niet bestaand
+with open("todo.txt", "w+") as todo_file: # file variabele aanmaken en file openen of aanmaken indien niet bestaand
 todo_file.write("Voltooide taken in overzicht:\n") # schrijven in de aangemaakte tekstfile
 todo_file.write("- " + x + "\n")  # taak toevoegen in de tekstfile

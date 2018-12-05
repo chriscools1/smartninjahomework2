@@ -1,5 +1,5 @@
 Voltooide taken in overzicht:
-- 3
+- 7
 Onvoltooide taken in overzicht:
-- 1
-- 2
+- 9
+- nee
