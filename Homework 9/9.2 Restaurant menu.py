@@ -25,7 +25,8 @@ with open("menu.txt", "w+") as menu_file:
     menu_file.write("Het menu voor: " + now.strftime("%d-%m-%Y") + "\n\n")
 
     for item in menu:
-        print ("* ") + item
-        menu_file.write("* "+item+"\n")
+        print ("* ") + item + (" - ")+ menu[item] + (" Euro")
+        menu_file.write("* "+item+" - "+ menu[item] + " Euro\n")
 
-print ("Maak uw keuze uit bovenstaande gerechten, daarna gaan wij aan het werk en mag u genieten!! (en betalen)")
+    print ("Maak uw keuze uit bovenstaande gerechten, daarna gaan wij aan het werk en mag u genieten!! (en betalen)")
+    menu_file.write("Maak uw keuze uit bovenstaande gerechten, daarna gaan wij aan het werk en mag u genieten!! (en betalen)")
