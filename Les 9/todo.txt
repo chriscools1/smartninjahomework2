@@ -1,5 +1,4 @@
 Voltooide taken in overzicht:
-- 7
+- todo 1
 Onvoltooide taken in overzicht:
-- 9
-- nee
+- todo 2
