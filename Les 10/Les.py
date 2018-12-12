@@ -1,3 +1,1 @@
-def numsum(a, b):
-    return a+b
-
+class Person(object):
